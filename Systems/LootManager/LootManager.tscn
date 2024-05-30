@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cqhyvt3sjlono"]
+
+[ext_resource type="Script" path="res://Systems/LootManager/LootManager.gd" id="1_3wwnd"]
+
+[node name="LootManager" type="Node"]
+script = ExtResource("1_3wwnd")
