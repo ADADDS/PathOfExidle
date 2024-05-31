@@ -6,17 +6,12 @@ var totalWeight: int
 # Setup Variables
 func _ready():
 	itemsList = JsonReader.itemData["Items"]
-	var string = "Item Name: %s | Type: %s | Weight: %s"
+	var string = "Item Name: %s | Type: %s | Weight: %s | Tier: %s"
 	for item in itemsList:
-		print(string % [item["name"], item["type"], item["weight"]])
-	
+		print(string % [item["name"], item["type"], item["weight"], item["tier"]])
+		
+	print("-----------------------------------------------------------------")
 	process_items()
-	
-	for i in range(4):
-		print("-----------------------------------------------------------------")
-		var selectedItem = select_random_item()
-		print("And the selected item is:")
-		print(string % [selectedItem["name"], selectedItem["type"], selectedItem["weight"]])
 
 func select_random_item():
 	var randomValue = randi() % totalWeight

@@ -3,67 +3,80 @@
 		{
 			"name": "Gladiator Helmet",
 			"type": "Helmet",
-			"weight": 5000
+			"weight": 5000,
+			"tier": 4
 		},
 		{
 			"name": "Iron Hat",
 			"type": "Helmet",
-			"weight": 5000
+			"weight": 5000,
+			"tier": 4
 		},
 		{
 			"name": "Cone Helmet",
 			"type": "Helmet",
-			"weight": 5000
+			"weight": 5000,
+			"tier": 4
 		},
 		{
 			"name": "Barbute Helmet",
 			"type": "Helmet",
-			"weight": 3000
+			"weight": 3000,
+			"tier": 4
 		},
 		{
 			"name": "Tricorne",
 			"type": "Helmet",
-			"weight": 5000
+			"weight": 5000,
+			"tier": 4
 		},
 		{
 			"name": "Lion Pelt",
 			"type": "Helmet",
-			"weight": 3000
+			"weight": 3000,
+			"tier": 4
 		},
 		{
 			"name": "Bone Circlet",
 			"type": "Helmet",
-			"weight": 5000
+			"weight": 5000,
+			"tier": 4
 		},
 		{
 			"name": "Pig-Faced Bascinet",
 			"type": "Helmet",
-			"weight": 3000
+			"weight": 3000,
+			"tier": 4
 		},
 		{
 			"name": "Bone Helmet",
 			"type": "Helmet",
-			"weight": 2000
+			"weight": 2000,
+			"tier": 3
 		},
 		{
 			"name": "Blizzard Crown",
 			"type": "Helmet",
-			"weight": 500
+			"weight": 500,
+			"tier": 1
 		},
 		{
 			"name": "The Devouring Diadem",
 			"type": "Helmet",
-			"weight": 50
+			"weight": 50,
+			"tier": 0
 		},
 		{
 			"name": "Maw of Mischief",
 			"type": "Helmet",
-			"weight": 1500
+			"weight": 1500,
+			"tier": 2
 		},
 		{
 			"name": "The Gull",
 			"type": "Helmet",
-			"weight": 800
+			"weight": 800,
+			"tier": 1
 		}
 	]
 }

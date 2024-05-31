@@ -1,8 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://cv0no14vixroh"]
+[gd_scene load_steps=3 format=3 uid="uid://cv0no14vixroh"]
 
+[ext_resource type="Script" path="res://Scenes/Main.gd" id="1_52uoa"]
 [ext_resource type="PackedScene" uid="uid://cqhyvt3sjlono" path="res://Systems/LootManager/LootManager.tscn" id="1_komhq"]
 
-[node name="Main" type="Node"]
+[node name="Main" type="Node" node_paths=PackedStringArray("button")]
+script = ExtResource("1_52uoa")
+button = NodePath("Button")
+
+[node name="LootManager" parent="." instance=ExtResource("1_komhq")]
 
 [node name="Label" type="Label" parent="."]
 offset_left = 394.0
@@ -13,4 +18,9 @@ text = "Hello World"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="LootManager" parent="." instance=ExtResource("1_komhq")]
+[node name="Button" type="Button" parent="."]
+offset_left = 465.0
+offset_top = 200.0
+offset_right = 671.0
+offset_bottom = 270.0
+text = "Click to Generate 5 Items"
