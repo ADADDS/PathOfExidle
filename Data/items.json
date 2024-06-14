@@ -4,79 +4,127 @@
 			"name": "Gladiator Helmet",
 			"type": "Helmet",
 			"weight": 5000,
-			"tier": 4
+			"tier": 4,
+			"slots": 4
 		},
 		{
 			"name": "Iron Hat",
 			"type": "Helmet",
 			"weight": 5000,
-			"tier": 4
+			"tier": 4,
+			"slots": 4
 		},
 		{
 			"name": "Cone Helmet",
 			"type": "Helmet",
 			"weight": 5000,
-			"tier": 4
+			"tier": 4,
+			"slots": 4
 		},
 		{
 			"name": "Barbute Helmet",
 			"type": "Helmet",
 			"weight": 3000,
-			"tier": 4
+			"tier": 4,
+			"slots": 4
 		},
 		{
 			"name": "Tricorne",
 			"type": "Helmet",
 			"weight": 5000,
-			"tier": 4
+			"tier": 4,
+			"slots": 4
 		},
 		{
 			"name": "Lion Pelt",
 			"type": "Helmet",
 			"weight": 3000,
-			"tier": 4
+			"tier": 4,
+			"slots": 4
 		},
 		{
 			"name": "Bone Circlet",
 			"type": "Helmet",
 			"weight": 5000,
-			"tier": 4
+			"tier": 4,
+			"slots": 4
 		},
 		{
 			"name": "Pig-Faced Bascinet",
 			"type": "Helmet",
 			"weight": 3000,
-			"tier": 4
+			"tier": 4,
+			"slots": 4
 		},
 		{
 			"name": "Bone Helmet",
 			"type": "Helmet",
 			"weight": 2000,
-			"tier": 3
+			"tier": 3,
+			"slots": 4
 		},
 		{
 			"name": "Blizzard Crown",
 			"type": "Helmet",
 			"weight": 500,
-			"tier": 1
+			"tier": 1,
+			"slots": 4
 		},
 		{
 			"name": "The Devouring Diadem",
 			"type": "Helmet",
 			"weight": 50,
-			"tier": 0
+			"tier": 0,
+			"slots": 4
 		},
 		{
 			"name": "Maw of Mischief",
 			"type": "Helmet",
 			"weight": 1500,
-			"tier": 2
+			"tier": 2,
+			"slots": 4
 		},
 		{
 			"name": "The Gull",
 			"type": "Helmet",
 			"weight": 800,
-			"tier": 1
+			"tier": 1,
+			"slots": 4
+		},
+		{
+			"name": "Headhunter Belt",
+			"type": "Belt",
+			"weight": 100,
+			"tier": 0,
+			"slots": 0
+		},
+		{
+			"name": "Mageblood Belt",
+			"type": "Belt",
+			"weight": 50,
+			"tier": 0,
+			"slots": 0
+		},
+		{
+			"name": "Leather Belt",
+			"type": "Belt",
+			"weight": 5000,
+			"tier": 4,
+			"slots": 0
+		},
+		{
+			"name": "Iron Gauntlets",
+			"type": "Gloves",
+			"weight": 5000,
+			"tier": 4,
+			"slots": 4
+		},
+		{
+			"name": "Storm's Fist",
+			"type": "Gloves",
+			"weight": 800,
+			"tier": 1,
+			"slots": 4
 		}
 	]
 }

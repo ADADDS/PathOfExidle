@@ -6,6 +6,7 @@ var totalWeight: int
 # Setup Variables
 func _ready():
 	itemsList = JsonReader.itemData["Items"]
+	
 	var string = "Item Name: %s | Type: %s | Weight: %s | Tier: %s"
 	for item in itemsList:
 		print(string % [item["name"], item["type"], item["weight"], item["tier"]])
