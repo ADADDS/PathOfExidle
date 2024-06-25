@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://iboxkfguq0ci"]
+
+[ext_resource type="Script" path="res://Systems/LootManager/LootManager.gd" id="1_5d2gj"]
+
+[node name="EffectManager" type="Node"]
+script = ExtResource("1_5d2gj")

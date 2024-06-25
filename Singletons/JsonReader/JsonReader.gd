@@ -1,6 +1,6 @@
 extends Node
 
-var itemData = {}
+var itemData : Dictionary = {}
 
 var data_file_path = "res://Data/items.json"
 

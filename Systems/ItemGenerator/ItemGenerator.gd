@@ -1,6 +1,6 @@
 class_name ItemGenerator extends Node
 
-func generate_item(itemData):
+func generate_item(itemData) -> Item:
 	var generatedObject
 	
 	match itemData["type"]:

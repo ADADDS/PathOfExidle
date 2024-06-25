@@ -1,7 +1,7 @@
-extends Node
+class_name LootManager extends Node
 
-var itemsList
-var totalWeight: int
+var itemsList : Array
+var totalWeight : int
 
 # Setup Variables
 func _ready():
@@ -14,7 +14,7 @@ func _ready():
 	print("-----------------------------------------------------------------")
 	process_items()
 
-func select_random_item():
+func select_random_item() -> Dictionary:
 	var randomValue = randi() % totalWeight
 	print("Random Value is: %s" % randomValue)
 	var currentValue = -1
@@ -26,7 +26,7 @@ func select_random_item():
 	
 	return itemsList[index]
 	
-func process_items():
+func process_items() -> void:
 	totalWeight = 0
 	for item in itemsList:
 		totalWeight += item["weight"]
