@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://cv0no14vixroh"]
+[gd_scene load_steps=4 format=3 uid="uid://cv0no14vixroh"]
 
 [ext_resource type="Script" path="res://Scenes/Main.gd" id="1_52uoa"]
 [ext_resource type="PackedScene" uid="uid://cqhyvt3sjlono" path="res://Systems/LootManager/LootManager.tscn" id="1_komhq"]
+[ext_resource type="PackedScene" uid="uid://n1nswyastrp5" path="res://Systems/ItemContainerSystem/ItemContainerGridView.tscn" id="3_sca4q"]
 
-[node name="Main" type="Node" node_paths=PackedStringArray("button")]
+[node name="Main" type="Node" node_paths=PackedStringArray("button", "gridTest")]
 script = ExtResource("1_52uoa")
 button = NodePath("Button")
+gridTest = NodePath("ItemContainerGridView")
 
 [node name="LootManager" parent="." instance=ExtResource("1_komhq")]
 
@@ -24,3 +26,5 @@ offset_top = 200.0
 offset_right = 671.0
 offset_bottom = 270.0
 text = "Click to Generate 5 Items"
+
+[node name="ItemContainerGridView" parent="." instance=ExtResource("3_sca4q")]

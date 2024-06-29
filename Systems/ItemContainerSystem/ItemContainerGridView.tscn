@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://n1nswyastrp5"]
+
+[ext_resource type="Script" path="res://Systems/ItemContainerSystem/ItemContainerGridView.gd" id="1_uwujh"]
+
+[node name="ItemContainerGridView" type="Control" node_paths=PackedStringArray("Grid")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_uwujh")
+Grid = NodePath("GridContainer")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_right = 600.0
+offset_bottom = 420.0
+columns = 4

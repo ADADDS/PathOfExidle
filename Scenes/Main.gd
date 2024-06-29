@@ -1,14 +1,19 @@
 extends Node
 
 @export var button : Button
+@export var gridTest : ItemContainerGridView
+
 var lootManager : LootManager
 var itemGenerator : ItemGenerator
+var itemContainerGrid : ItemContainerGrid
 var string = "Item Name: %s | Type: %s | Weight: %s | Tier: %s"
 
 func _ready():
 	itemGenerator = ItemGenerator.new()
+	itemContainerGrid = ItemContainerGrid.new().with_data(10, 10, [ItemType.EQUIPPABLE_ITEM, ItemType.CURRENCY])
 	button.pressed.connect(self._button_pressed)
 	lootManager = get_tree().current_scene.get_node("LootManager")
+	gridTest.setup_grid(itemContainerGrid)
 
 func _button_pressed() -> void:
 	print("-----------------------------------------------------------------")
